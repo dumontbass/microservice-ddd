@@ -50,8 +50,8 @@ public class BarServer {
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
             public void run() {
-                httpServer.stop();
 
+                httpServer.stop();
             }
         });
 
